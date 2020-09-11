@@ -3,7 +3,7 @@ var userPaddle, computerPaddle, computerScore, playerScore, gameState, ball,scor
 function preload(){
   // scoreSound = loadSound('score.mp3');
   // wall_hitSound = loadSound('wall_hit.mp3');
-  hitSound = loadSound('hit.mp3');
+  //hitSound = loadSound('hit.mp3');
 }
 
 function setup() {
@@ -38,7 +38,7 @@ function draw() {
   }
 
   if (gameState === "serve") {
-    text("Press Space to Serve",150,180);
+    text("Press Spacebar to Serve",150,180);
   }
 
   if (gameState === "over") {
